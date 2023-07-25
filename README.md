@@ -7,5 +7,9 @@ La historia de usuario fue tomada del proyecto open source UPEX en el cual tuve 
 
 Cada una de las pruebas que se veran aqui fueron diseñadas por mi.
 
+* [Criterios de aceptación]()
+* [Casos de prueba]()
+
   __Historia de usuario__
+  
 ![](https://github.com/Pablo-n15/Proyecto-2/blob/main/USER%20STORY.jpg)
