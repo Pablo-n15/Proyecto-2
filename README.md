@@ -9,6 +9,7 @@ Cada una de las pruebas que se veran aqui fueron diseñadas por mi.
 
 * [Criterios de aceptación]()
 * [Casos de prueba]()
+  
 
 ## Historia de usuario
   
