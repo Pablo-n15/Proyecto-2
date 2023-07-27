@@ -47,10 +47,14 @@ Cada una de las pruebas que se veran aqui fueron diseñadas por mi.
 <br>
   <em>
     <b>WHEN</b> Uusario selecciona un país.
+    
     <b>And</b> Selecciona un email de cuenta NO REGISTRADA con la opción "Google" para continuar automático.
+    
     <b>And</b> Selecciona una localidad (por geolocalización o agrega manualmente).
+    
     <b>THEN</b> Usuario entra al Homepage de la App como usuario registrado.
+    
     <b>And</b> Tiene acceso a todas las opciones de la App como usuario registrado.
+    
     <b>And</b> En el tab "MI CUENTA" se habilita el proceso de "Completar mi cuenta" (si se omitieron los pasos de completar cuenta).
-  </em>
-</details>
+</details> </em>
