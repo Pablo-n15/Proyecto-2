@@ -23,7 +23,7 @@ Cada una de las pruebas que se veran aqui fueron diseñadas por mi.
 <b>Scenario 1:</b> Usuario crea una cuenta con opcion "Mobile email" desde el startp exitosamente.
 </summary>
 <br>
- <em> <b>WHEN</b> Usuario selecciona un país.
+ <em> <b>WHEN</b> Usuario selecciona un país. @@ text in purple (and bold)@@
   
   <b>And</b> Selecciona o ingresa un email de cuenta no registrada con la opción "mobile email" para continuar manualmente.
   
