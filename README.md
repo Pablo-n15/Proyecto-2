@@ -14,3 +14,14 @@ Cada una de las pruebas que se veran aqui fueron diseñadas por mi.
 ## Historia de usuario
   
 ![](https://github.com/Pablo-n15/Proyecto-2/blob/main/USER%20STORY.jpg)
+
+
+## Criterios de Aceptación
+
+<details>
+<summary>
+  Scenario 1: Usuario crea una cuenta con opcion "Mobile email" desde el startp exitosamente.
+</summary>
+<br>
+  
+</details>
