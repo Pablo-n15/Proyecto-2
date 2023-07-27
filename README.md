@@ -38,7 +38,7 @@ Cada una de las pruebas que se veran aqui fueron diseñadas por mi.
 <b>Scenario 2:</b> Usuario crea una cuenta con opcion "Google" desde el startup exitosamente.
 </summary>
 <br> <em>
-    <b>WHEN</b> Uusario selecciona un país. <br>
+    <b>WHEN</b> Usario selecciona un país. <br>
     <b>And</b> Selecciona un email de cuenta NO REGISTRADA con la opción "Google" para continuar automático. <br>
     And Selecciona una localidad (por geolocalización o agrega manualmente).<br>
     <b>THEN</b> Usuario entra al Homepage de la App como usuario registrado. <br>
