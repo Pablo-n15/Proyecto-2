@@ -51,13 +51,27 @@ Cada una de las pruebas que se veran aqui fueron diseñadas por mi.
 <b>Scenario 3:</b> Usuario crea una cuenta con opcion "Facebook" desde el startup exitosamente.
 </summary>
 <br> <em>
-<b>WHEN</b> Usuario selecciona país. <br>
+<b>WHEN</b> Usuario selecciona un país. <br>
 <b>And</b> Selecciona un email de cuenta NO REGISTRADA con la opción "Facebook" para continuar automático.<br>
 <b>And</b> Acepta los permisos de la Web/App de Facebook.<br>
 <b>And</b> Selecciona una localidad (por geolocalización o agrega manualmente).<br>
 <b></b> Usuario entra al Homepage de la App como usuario registrado.<br>
 <b></b> Tiene acceso a todas las opciones de la App como usuario registrado.<br>
 <b></b> En el tab "MI CUENTA" se habilita el proceso de "Completar mi cuenta" (si se omitieron los pasos de completar cuenta).
+</details> </em>
+
+<details>
+<summary>
+<b>Scenario 4:</b> Usuario omite la creacion de cuenta desde el startup de la APP.
+</summary>
+<br> <em>
+<b>WHEN</b> Usuario selecciona un país. <br>
+<b>And</b> Selecciona o ingresa un email de cuenta NO REGISTRADA con la opción "mobile email" para continuar manualmente. <br>
+<b>And</b> Hace click sobre la fecla superior izquierda para vovler atras (En la pantalla de seleccionar Email). <br>
+<b>And</b> Usuario regresa y salta automaticamente a la pantalla de selección de localidad. <br>
+<b>THEN</b> Usuario entra al Homepage de la App como usuario NO REGISTRADO.<br>
+<b>And</b> NO tiene acceso a todas las opciones de la App por no tener cuenta activa. <br>
+<b>And</b> En el Tab "MI CUENTA" el perfil aparece sin estado activo: con la opcion de iniciar sesion o registrarse.
 </details> </em>
 
 
