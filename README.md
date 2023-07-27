@@ -20,7 +20,7 @@ Cada una de las pruebas que se veran aqui fueron diseñadas por mi.
 
 <details>
 <summary>
-<b>Scenario 1:</b> Usuario crea una cuenta con opcion "Mobile email" desde el startp exitosamente.
+<b>Scenario 1:</b> Usuario crea una cuenta con opcion "Mobile email" desde el startup exitosamente.
 </summary>
 <br>
  <em> <b>WHEN</b> Usuario selecciona un país.
@@ -39,3 +39,18 @@ Cada una de las pruebas que se veran aqui fueron diseñadas por mi.
   
   <b>And</b> En el tab "MI CUENTA" se habilita el proceso de "Completar mi cuenta" (si se omitieron los pasos de completar cuenta).
 </details></em>
+
+<details>
+<summary>
+<b>Scenario 2:</b> Usuario crea una cuenta con opcion "Google" desde el startup exitosamente.
+</summary>
+<br>
+  <em>
+    <b>WHEN</b> Uusario selecciona un país.
+    <b>And</b> Selecciona un email de cuenta NO REGISTRADA con la opción "Google" para continuar automático.
+    <b>And</b> Selecciona una localidad (por geolocalización o agrega manualmente).
+    <b>THEN</b> Usuario entra al Homepage de la App como usuario registrado.
+    <b>And</b> Tiene acceso a todas las opciones de la App como usuario registrado.
+    <b>And</b> En el tab "MI CUENTA" se habilita el proceso de "Completar mi cuenta" (si se omitieron los pasos de completar cuenta).
+  </em>
+</details>
