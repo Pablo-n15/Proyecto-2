@@ -32,7 +32,6 @@ Cada una de las pruebas que se veran aqui fueron diseñadas por mi.
   <b>And</b> Tiene acceso a todas las opciones de la App como usuario registrado. <br>
   <b>And</b> En el tab "MI CUENTA" se habilita el proceso de "Completar mi cuenta" (si se omitieron los pasos de completar cuenta).
 </details></em>
----
 
 <details>
 <summary>
@@ -46,3 +45,19 @@ Cada una de las pruebas que se veran aqui fueron diseñadas por mi.
     <b>And</b> Tiene acceso a todas las opciones de la App como usuario registrado. <br>
     <b>And</b> En el tab "MI CUENTA" se habilita el proceso de "Completar mi cuenta" (si se omitieron los pasos de completar cuenta).
 </details> </em>
+
+<details>
+<summary>
+<b>Scenario 3:</b> Usuario crea una cuenta con opcion "Facebook" desde el startup exitosamente.
+</summary>
+<br> <em>
+<b>WHEN</b> Usuario selecciona país. <br>
+<b>And</b> Selecciona un email de cuenta NO REGISTRADA con la opción "Facebook" para continuar automático.<br>
+<b>And</b> Acepta los permisos de la Web/App de Facebook.<br>
+<b>And</b> Selecciona una localidad (por geolocalización o agrega manualmente).<br>
+<b></b> Usuario entra al Homepage de la App como usuario registrado.<br>
+<b></b> Tiene acceso a todas las opciones de la App como usuario registrado.<br>
+<b></b> En el tab "MI CUENTA" se habilita el proceso de "Completar mi cuenta" (si se omitieron los pasos de completar cuenta).
+</details> </em>
+
+
