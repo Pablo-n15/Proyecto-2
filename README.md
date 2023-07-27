@@ -75,4 +75,6 @@ Cada una de las pruebas que se veran aqui fueron diseñadas por mi.
 
 Luego de haber Analizado la Historia de usuario y cada unos de los escenarios de los criterios de aceptacion. Cree el Test set y los Casos de Prueba.
 
+![](https://github.com/Pablo-n15/Proyecto-2/blob/main/TEST%20SET.jpg)
+
 
