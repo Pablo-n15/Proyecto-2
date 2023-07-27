@@ -73,4 +73,6 @@ Cada una de las pruebas que se veran aqui fueron diseñadas por mi.
 <b>And</b> En el Tab "MI CUENTA" el perfil aparece sin estado activo: con la opcion de iniciar sesion o registrarse.
 </details> </em>
 
+Luego de haber Analizado la Historia de usuario y cada unos de los escenarios de los criterios de aceptacion. Cree el Test set y los Casos de Prueba.
+
 
