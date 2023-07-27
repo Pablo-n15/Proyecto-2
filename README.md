@@ -23,20 +23,13 @@ Cada una de las pruebas que se veran aqui fueron diseñadas por mi.
 <b>Scenario 1:</b> Usuario crea una cuenta con opcion "Mobile email" desde el startup exitosamente.
 </summary>
 <br>
- <em> <b>WHEN</b> Usuario selecciona un país.
-  
-  <b>And</b> Selecciona o ingresa un email de cuenta no registrada con la opción "mobile email" para continuar manualmente.
-  
-  <b>And</b> Autentica el email atraves de un envio de codigo al emaul usado.
-  
-  <b>And</b> Crea una contraseña de usuario.
-  
-  <b>And</b> Selecciona una localidad (por geolocalización o agrega manualmente).
-  
-  <b>THEN</b> Usuario entra al Homepage de la App como usuario registrado.
-  
-  <b>And</b> Tiene acceso a todas las opciones de la App como usuario registrado.
-  
+ <em> <b>WHEN</b> Usuario selecciona un país. <br>
+  <b>And</b> Selecciona o ingresa un email de cuenta no registrada con la opción "mobile email" para continuar manualmente.<br>
+  <b>And</b> Autentica el email atraves de un envio de codigo al emaul usado. <br>
+  <b>And</b> Crea una contraseña de usuario. <br>
+  <b>And</b> Selecciona una localidad (por geolocalización o agrega manualmente). <br>
+  <b>THEN</b> Usuario entra al Homepage de la App como usuario registrado. <br>
+  <b>And</b> Tiene acceso a todas las opciones de la App como usuario registrado. <br>
   <b>And</b> En el tab "MI CUENTA" se habilita el proceso de "Completar mi cuenta" (si se omitieron los pasos de completar cuenta).
 </details></em>
 ---
@@ -46,14 +39,10 @@ Cada una de las pruebas que se veran aqui fueron diseñadas por mi.
 <b>Scenario 2:</b> Usuario crea una cuenta con opcion "Google" desde el startup exitosamente.
 </summary>
 <br> <em>
-    <b>WHEN</b> Uusario selecciona un país.<br>
-    <b>And</b> Selecciona un email de cuenta NO REGISTRADA con la opción "Google" para continuar automático.
-    
-    And Selecciona una localidad (por geolocalización o agrega manualmente).
-    
-    <b>THEN</b> Usuario entra al Homepage de la App como usuario registrado.
-    
-    <b>And</b> Tiene acceso a todas las opciones de la App como usuario registrado.
-    
+    <b>WHEN</b> Uusario selecciona un país. <br>
+    <b>And</b> Selecciona un email de cuenta NO REGISTRADA con la opción "Google" para continuar automático. <br>
+    And Selecciona una localidad (por geolocalización o agrega manualmente).<br>
+    <b>THEN</b> Usuario entra al Homepage de la App como usuario registrado. <br>
+    <b>And</b> Tiene acceso a todas las opciones de la App como usuario registrado. <br>
     <b>And</b> En el tab "MI CUENTA" se habilita el proceso de "Completar mi cuenta" (si se omitieron los pasos de completar cuenta).
 </details> </em>
